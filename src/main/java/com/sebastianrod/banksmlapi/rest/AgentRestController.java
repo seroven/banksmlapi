@@ -12,6 +12,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Collection;
 
 @RestController
+@CrossOrigin
 @RequestMapping(path = "/agent")
 public class AgentRestController {
 
